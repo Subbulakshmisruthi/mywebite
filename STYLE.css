@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    font-family: 'Ballet', cursive;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#b854f1), url(images/background.jpg);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+}
+.banner-text{
+    text-align: center;
+    color:#fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 120px;
+}
+.banner-text p{
+    font-size: 30px;
+    font-style: italic ;
+    font-family: 'Ballet', cursive;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    font-family: 'Ballet', cursive; 
+}
+.banner-btn a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+#bottompage{
+    background-color:#fff;
+}
+.btmimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+#bottompage h2{
+    text-align:center ;
+    color:#b854f1;
+    font-family: 'Ballet', cursive;
+}
+.bptext{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+}
+#bottompage2{
+    background-color: #fff;
+}
+.btmimg2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+#bottompage2 h2{
+    text-align:center ;
+    color:#b854f1;
+    font-family: 'Ballet', cursive;
+}
+.bptext2{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+}
+#bottompage3{
+    background-color: #fff;
+}
+.btmimg3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+#bottompage3 h2{
+    text-align:center ;
+    color:#b854f1;
+    font-family: 'Ballet', cursive;
+}
+.bptext3{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+}
+#bottompage4{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.btmimg4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+#bottompage4 h2{
+    text-align:center ;
+    color:#b854f1;
+    font-family: 'Ballet', cursive;
+}
+.bptext4{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+}
+@media screen and (max-width:770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-text p{
+        font-size:20px ;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
